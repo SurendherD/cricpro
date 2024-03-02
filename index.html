@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>CricPro</title>
+  </head>
+  <body>
+    <nav>
+      <div class="logo"><img src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-logo.JPG" alt="logo" /></div>
+    </nav>
+    <span class="heading">ICC World Cup 2011</span>
+    <span class="subHeading">India Vs SriLanka ScoreCard</span>
+    
+    <table>
+      <tr>
+        <th colspan="5" class="first-cnt">India Innings</th>
+        <th colspan="2">277-4(48.2)</th>
+      </tr>
+      <tr>
+        <td colspan="2">Batsman</td>
+        <td>R</td>
+        <td>B</td>
+        <td>4s</td>
+        <td>6s</td>
+        <td>SR</td>
+      </tr>
+      
+      <tr>
+        <td class="players" id="Virender Sehwag" onclick="show('sehwag')">Virender Sehwag</td>
+        <td class="row">Ibw b L Malinga</td>
+        <td>0</td>
+        <td>2</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0.00</td>
+      </tr>
+      <tr>
+        <td class="players" id="Sachin Tendulkar" onclick="show('sachin')">Sachin Tendulkar</td>
+        <td class="row">c K Sangakkara b L Malinga</td>
+        <td>18</td>
+        <td>14</td>
+        <td>2</td>
+        <td>0</td>
+        <td>128.57</td>
+      </tr>
+      <tr>
+        <td class="players" id="Gautam Gambhir" onclick="show('gambhir')">Gautam Gambhir</td>
+        <td class="row">b T Perera</td>
+        <td>97</td>
+        <td>122</td>
+        <td>9</td>
+        <td>0</td>
+        <td>79.51</td>
+      </tr>
+      <tr>
+        <td class="players" id="Virat Kohli" onclick="show('virat Kohli')">Virat Kohli</td>
+        <td class="row">c & b T Dilshan</td>
+        <td>35</td>
+        <td>49</td>
+        <td>4</td>
+        <td>0</td>
+        <td>71.43</td>
+      </tr>
+      <tr>
+        <td class="players" id="MS Dhoni" onclick="show('dhoni')">MS Dhoni (c & wk)</td>
+        <td class="row">not out</td>
+        <td>91</td>
+        <td>79</td>
+        <td>8</td>
+        <td>2</td>
+        <td>115.10</td>
+      </tr>
+      <tr>
+        <td class="players" id="Yuvraj Singh" onclick="show('yuvraj')">Yuvraj Singh</td>
+        <td class="row">not out</td>
+        <td>21</td>
+        <td>24</td>
+        <td>2</td>
+        <td>0</td>
+        <td>87.50</td>
+      </tr>
+      <tr>
+        <td colspan="2">Extras</td>
+        <td colspan="5">15 (b 1, Ib 6, w 8, nb 0, p 0)</td>
+      </tr>
+      <tr>
+        <td colspan="2">Total</td>
+        <td colspan="5">277 (4 wkts, 48.2 Ov)</td>
+      </tr>
+      <tr>
+        <td>Did not bat </td>
+        <td colspan="6">
+            <span class="players" id="Suresh Raina" onclick="show('suresh Raina')">Suresh Raina,</span>
+            <span class="players" id="Harbhajan Singh" onclick="show('harbhajan')">Harbhajan Singh,</span>
+            <span class="players" id="Zaheer Khan" onclick="show('zaheer Khan')">Zaheer Khan,</span>
+            <span class="players" id="Munaf Patel" onclick="show('munaf')" >Munaf Patel,</span>
+            <span class="players" id="S Sreesanth" onclick="show('sreeshanth')">S Sreesanth</span>
+        </td>
+      </tr>
+    </table>
+    <div class="container">
+        <div><img src="" alt="something Wrong" class="popup"></div>
+    </div>
+    <footer class="footer">Made with <span style="color: red;">♥️</span> by Kalvian</footer>
+  </body>
+  <script src="/script.js"></script>
+</html>
